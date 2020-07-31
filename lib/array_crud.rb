@@ -28,7 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
 array[index_number]
-return index_number
+return array[index_number]
 p index_number
 end
 
