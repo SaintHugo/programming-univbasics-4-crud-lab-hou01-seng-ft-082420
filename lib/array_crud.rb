@@ -20,9 +20,9 @@ end
 
 def remove_element_from_end_of_array(array)
   array = [element]
-  element = array.pop(element)
+  popElement = array.pop(element)
   p array
-  p element
+  p popElement
 end
 
 def remove_element_from_start_of_array(array)
