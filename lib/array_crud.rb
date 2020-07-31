@@ -21,7 +21,6 @@ end
 def remove_element_from_end_of_array(array)
   array = [element]
   element = array.pop(element)
-  
   p array
   p element
 end
