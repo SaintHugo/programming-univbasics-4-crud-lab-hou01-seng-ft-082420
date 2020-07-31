@@ -27,7 +27,6 @@ array.shift()
 end
 
 def retrieve_element_from_index(array, index_number)
-array = []
 array[index_number]
 return index_number
 p index_number
