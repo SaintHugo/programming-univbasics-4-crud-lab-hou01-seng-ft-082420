@@ -43,7 +43,7 @@ end
 
 def update_element_from_index(array, index_number, element)
 array = (element)
-array[index_number] = "newElement"
+array[index_number] = element
   return array[index_number]
   p array[index_number]
 end
